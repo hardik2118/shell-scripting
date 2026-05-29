@@ -11,3 +11,7 @@ echo "enter the name"
 read -p "Enter Username : "  username
 
 echo "Your Username is $username"
+
+sudo useradd -m $username
+
+echo "new user added"
