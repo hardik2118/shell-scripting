@@ -1,4 +1,6 @@
 #!/bin/bash
+
+function is_loyal() {
 read -p "Jetha's love  is : " wife
 read -p "Jetha;s love % : " love
 if [[ $wife == " Daya bhabhi " ]];
@@ -11,3 +13,6 @@ then
 else
 	echo "Jetha is not loyal"
 fi
+}
+#This is function calling
+is_loyal
